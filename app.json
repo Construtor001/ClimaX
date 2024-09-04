@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "ClimaX",
+    "slug": "climax",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/solicon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splashclima.png",
+      "resizeMode": "cover"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/solicon.png",
+        "backgroundColor": "#F00001"
+      },
+      "package": "com.fire3254.ClimaX"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/faviconclima.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f05c4c03-f088-4e16-b356-5348664c9bc8"
+      }
+    }
+  }
+}
